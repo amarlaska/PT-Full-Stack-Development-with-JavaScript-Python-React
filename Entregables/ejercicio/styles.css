@@ -1,0 +1,99 @@
+.gridOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #5353;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.grid-p-whatever {
+  background-color: red;
+}
+
+.grid-p-text {
+  background-color: blue;
+}
+
+.grid-p-I-want {
+  background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-color: #5353;
+    width: 500px;
+    height: 300px;
+}
+
+.gridThree-text {
+    display: flex;
+}
+
+.gridThree-image {
+    background-color: #5353;
+    overflow: hidden; /* 🔑 evita que la imagen se salga */
+}
+
+.gridThree-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+.gridFour-top {
+    background-color: green;
+}
+
+#gridFour-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    width: 500px;
+    grid-template-rows: 1fr 1fr;
+    background-color: #5353;
+}
+
+.gridFive-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gridFive-bottom img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgrey;
+    font-family: "Barrio", comic-sans;
+}
+
+.gridSix-icon {
+    display: grid;
+}
+
